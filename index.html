@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Nav Bar -->
+        <div class="nav">
+            <a href="#" data-target="home"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#" data-target="about"><i class="fa-solid fa-user"></i> About Me</a>
+            <a href="#" data-target="skills"><i class="fas fa-laptop-code"></i> Skills</a>
+            <a href="#" data-target="projects"><i class="fas fa-tasks"></i> Projects</a>
+            <a href="#" data-target="contact"><i class="fas fa-comments"></i> Contact Me</a>
+        </div>
+
+        <!-- content -->
+        <div class="content">
+            <!-- home content -->
+            <div id="home" class="content-section home-content">
+                <div class="myinfo">
+                    <h1>Hi! I'm <span>Mayur Kokate</span>,</h1>
+                    <h2>A Full Stack Developer</h2>
+                    <p>I specialize in building responsive, scalable, and efficient web applications using both front-end and back-end technologies like HTML, CSS, JavaScript, React, Node.js, and databases such as MongoDB and MySQL. I focus on delivering clean code and innovative solutions to meet client needs.</p>
+                    <div class="buttons">
+                        <a href="#hire">Hire Me</a>
+                        <a href="#" data-target="contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="myimg">
+                    <img src="./sketch/photon.jpg" alt="My Image">
+                </div>
+            </div>
+
+            <!-- about section -->
+            <div id="about" class="content-section about-content">
+                <h1><span>Mayur Kokate,</span></h1>
+                <h2>Electronics and TeleCommunication</h2>
+                <p>I specialize in building responsive, scalable, and efficient web applications using both front-end and back-end technologies like HTML, CSS, JavaScript, React, Node.js, and databases such as MongoDB and MySQL. I focus on delivering clean code and innovative solutions to meet client needs.</p>
+                <br><br>
+                <h1><span>Qualification: </span></h1>
+                <div class="educations">
+                    <div class="qualification">
+                        <p><i class="fas fa-microchip"></i> Bachelor of Degree</p>
+                        <h5>Jayawantrao Sawant College Of Eng. Pune</h5>
+                        <h3>Electronics and TeleCommunication</h3>
+                        <span class="agg">AGG: 90.05%</span><br> 
+                        <span>2021-2024</span>
+                    </div>
+                    <div class="qualification">
+                        <p><i class="fas fa-scroll"></i> Diploma</p>
+                        <h5>Government College Pune</h5>
+                        <h3>Electronics and TeleCommunication</h3>
+                        <span class="agg">AGG: 86.40%</span><br>
+                        <span>2018-2021</span>
+                    </div>
+                    <div class="qualification">
+                        <p><i class="fas fa-certificate"></i> SSC</p>
+                        <h5>Kalyansagar M.V. Domgaon</h5>   
+                        <span class="agg">AGG: 91.20%</span><br>
+                        <span>2017-2018</span>
+                    </div>
+                </div>
+            </div>
+
+         
+           <!-- Skills Section -->
+            <section id="skills" class="content-section skills-content">
+            <h2>Technical Skills</h2>
+
+                <!-- Frontend Skills -->
+                <div class="skills-category">
+                    <h3>Frontend Technologies</h3>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML</h4>
+                            <p>Structuring web content and layout.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS</h4>
+                            <p>Styling and designing responsive UI.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                            <p>Interactive functionality and dynamic content.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-react"></i>
+                            <h4>React.js</h4>
+                            <p>Modern frontend framework for SPAs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skills-category">
+                    <h3>Backend Technologies</h3>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <i class="fas fa-code"></i>
+                            <h4>Java</h4>
+                            <p>Core language for backend development.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-server"></i>
+                            <h4>Servlet</h4>
+                            <p>Java web technology for server-side logic.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-sitemap"></i>
+                            <h4>JSP</h4>
+                            <p>Java Server Pages for dynamic content.</p>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-database"></i>
+                            <h4>JDBC</h4>
+                            <p>Java Database Connectivity for SQL operations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Skills -->
+                <div class="skills-category">
+                    <h3>Database</h3>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <i class="fas fa-database"></i>
+                            <h4>SQL</h4>
+                            <p>Data querying and manipulation in relational databases.</p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Version Control -->
+                <div class="skills-category">
+                    <h3>Version Control</h3>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <i class="fab fa-github"></i>
+                            <h4>GitHub</h4>
+                            <p>Version control and collaboration on codebases.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            
+            <!-- project container -->
+            <div id="projects" class="content-section project-content">
+                <div   class="projects">
+                    <h1>Projects</h1>
+                    <div class="project-box">
+                        <div class="box" data-target="info1">
+                       <p>Multiple Purpose Report <br>Updating System For Higher <br>
+                                Management in Web Application</p>
+                        </div>
+                        <div class="box" data-target="info2">
+                            <p>Covid19 IOT Based Patient <br>Health Monitoring System</p>
+                        </div>
+                        <div data-target="info3" class="box">
+                            <p>Planet-Weight Evaluator</p>
+                        </div>
+                        <div class="box" data-target="info4">
+                            <p>Tic-Tac-Toe </p>
+                        </div>
+                        <div class="box" data-target="info5">
+                            <p>Amazon clone </p>
+                        </div>
+                        <div class="box" data-target="info6">
+                            <p>Car Management System</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-container">
+                    <div id="info1" class="info hidden">
+                        <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Multiple Purpose Report Updating System</h2>
+                        <h5><a href="https://ijrpr.com/uploads/V5ISSUE3/IJRPR23430.pdf">Paper Published</a></h5><br>
+                        <h3>Key Responsibilities:</h3>
+                        <ul>
+                            <li>1] Automating the generation and distribution of reports based on real-time data.</li>
+                            <li>2] Providing customizable dashboards to display key performance indicators (KPIs) and metrics.</li>
+                            <li>3] Ensuring data accuracy, integrity, and security throughout the reporting process.</li>
+                            <li>4] Facilitating easy access and retrieval of historical reports for decision-making.</li>
+                        </ul>
+                        <h3>Frontend Tech Stack</h3>
+                        <p>
+                            <button>HTML </button> <button>CSS</button> <button>JavaScript </button><br>are the core technologies used for structuring, styling, and adding interactivity to the website.
+                        </p>
+                    </div>
+
+                    <div id="info2" class="info hidden"> 
+                        <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Covid19 IOT Based Patient Health Monitoring System <a href="https://mayur0910.github.io/TicTacgame/">link</a></h2><br>
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                            <li>1] Integrate IoT devices to monitor vital signs (temperature, oxygen levels, heart rate).</li>
+                            <li>2] Develop real-time data processing and alerting system</li>
+                            <li>3] Ensure secure and reliable communication between IoT devices and the backend</li>
+                        </ul>
+                        <h3>Tech Stack</h3>
+                        <p>
+                            IoT Devices: Arduino,ESP32, sensors (temperature, pulse oximeter)
+                        </p>
+                    </div>
+
+                    <div id="info3" class="info hidden">
+                        <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Planet-Weight Evaluator <a href="https://mayur0910.github.io/TicTacgame/">link</a></h2><br>
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                            <li>1] Integrate IoT devices to monitor vital signs (temperature, oxygen levels, heart rate).</li>
+                            <li>2] Develop real-time data processing and alerting system</li>
+                            <li>3] Ensure secure and reliable communication between IoT devices and the backend</li>
+                        </ul>
+                        <h3>Tech Stack</h3>
+                        <p>
+                            IoT Devices: Arduino,ESP32, sensors (temperature, pulse oximeter)
+                        </p>
+                    </div>
+
+                    <div id="info4" class="info hidden">
+                         <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Tic-Tac-Toe  <a href="https://mayur0910.github.io/TicTacgame/">link</a></h2><br>
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                            <li>1] Integrate IoT devices to monitor vital signs (temperature, oxygen levels, heart rate).</li>
+                            <li>2] Develop real-time data processing and alerting system</li>
+                            <li>3] Ensure secure and reliable communication between IoT devices and the backend</li>
+                        </ul>
+                        <h3>Tech Stack</h3>
+                        <p>
+                            IoT Devices: Arduino,ESP32, sensors (temperature, pulse oximeter)
+                        </p>
+                    </div>
+
+                    <div id="info5" class="info hidden">
+                        <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Amazon clone <a href="https://mayur0910.github.io/TicTacgame/">link</a></h2><br>
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                            <li>1] Integrate IoT devices to monitor vital signs (temperature, oxygen levels, heart rate).</li>
+                            <li>2] Develop real-time data processing and alerting system</li>
+                            <li>3] Ensure secure and reliable communication between IoT devices and the backend</li>
+                        </ul>
+                        <h3>Tech Stack</h3>
+                        <p>
+                            IoT Devices: Arduino,ESP32, sensors (temperature, pulse oximeter)
+                        </p>
+                    </div>
+                    
+                    <div id="info6" class="info hidden">
+                        <p class="back" onclick="backHandler()"><i class="fa-solid fa-arrow-left"></i> Back</p>
+                        <h2>Car Management System <a href="https://mayur0910.github.io/TicTacgame/">link</a></h2><br>
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                            <li>1] Integrate IoT devices to monitor vital signs (temperature, oxygen levels, heart rate).</li>
+                            <li>2] Develop real-time data processing and alerting system</li>
+                            <li>3] Ensure secure and reliable communication between IoT devices and the backend</li>
+                        </ul>
+                        <h3>Tech Stack</h3>
+                        <p>
+                            IoT Devices: Arduino,ESP32, sensors (temperature, pulse oximeter)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact content -->
+            <div id="contact" class="content-section">
+                <section id="contact" class="contact-section">
+                    <h2>Contact Me</h2>
+                    <div class="contact-container">
+                        <a href="https://www.linkedin.com/in/mayur-kokate-54603820b" target="_blank" class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:mayurkokate2002@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="tel:+919067728494" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>Phone</span>
+                        </a>
+                        <a href="https://www.instagram.com/your-instagram-profile" target="_blank" class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
